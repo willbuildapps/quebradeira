@@ -44,6 +44,8 @@ namespace Qbradeira.Droid
 
 		void KillMeButton_Click(object sender, System.EventArgs e)
 		{
+			Analytics.TrackEvent("A maldade prevalece!");
+
 			throw new StackOverflowException("Você acabou de matar um app incrível!");
 		}
 	}

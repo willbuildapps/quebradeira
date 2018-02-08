@@ -20,16 +20,19 @@ namespace Qbradeira.Droid.UITests
 		}
 
 		[Test]
-		public void ClickingButtonTwiceShouldChangeItsLabel()
+		public void ClickingDoSomethingButtonShouldShowA()
 		{
-			Func<AppQuery, AppQuery> MyButton = c => c.Button("myButton");
+			Func<AppQuery, AppQuery> doSomethingButton = c => c.Button("do_something_button");
 
-			app.Tap(MyButton);
-			app.Tap(MyButton);
-			AppResult[] results = app.Query(MyButton);
-			app.Screenshot("Button clicked twice.");
+			app.Tap(doSomethingButton);
 
-			Assert.AreEqual("2 clicks!", results[0].Text);
+			AppResult[] results = app.Query(doSomethingButton);
+
+			app.Screenshot("Do Something Button clicked!");
+			app.WaitForElement("Vamos fingir que algo importante está acontecendo agora!");
+			app.Screenshot("Something going on!");
+			app.WaitForNoElement("Vamos fingir que algo importante está acontecendo agora!");
+			app.Screenshot("Something happened!");
 		}
 	}
 }
