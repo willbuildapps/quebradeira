@@ -36,7 +36,7 @@ namespace Qbradeira.Droid
 			AppCenter.Start("67a93127-8cae-4fdc-a350-7333fc6dcdcd"
 							, typeof(Analytics)
 							, typeof(Crashes)
-							//, typeof(Distribute)
+							, typeof(Distribute)
 							, typeof(Push)
 						   );
 
