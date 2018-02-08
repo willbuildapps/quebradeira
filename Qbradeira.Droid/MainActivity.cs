@@ -6,6 +6,7 @@ using Microsoft.AppCenter.Distribute;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Analytics;
 using System;
+using Microsoft.AppCenter.Push;
 
 namespace Qbradeira.Droid
 {
@@ -18,10 +19,15 @@ namespace Qbradeira.Droid
 		{
 			base.OnCreate(savedInstanceState);
 
+			//Push
+			Push.SetSenderId("731318182468");
+
+			//App center
 			AppCenter.Start("67a93127-8cae-4fdc-a350-7333fc6dcdcd"
 							, typeof(Analytics)
 							, typeof(Crashes)
-						   //, typeof(Distribute)
+							//, typeof(Distribute)
+							, typeof(Push)
 						   );
 
 			// Set our view from the "main" layout resource
@@ -47,6 +53,12 @@ namespace Qbradeira.Droid
 			Analytics.TrackEvent("A maldade prevalece!");
 
 			throw new StackOverflowException("Você acabou de matar um app incrível!");
+		}
+
+		protected override void OnNewIntent(Android.Content.Intent intent)
+		{
+			base.OnNewIntent(intent);
+			Push.CheckLaunchedFromNotification(this, intent);
 		}
 	}
 }

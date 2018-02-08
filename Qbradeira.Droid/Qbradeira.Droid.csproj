@@ -95,6 +95,12 @@
     <Reference Include="Microsoft.AppCenter.Distribute">
       <HintPath>packages\Microsoft.AppCenter.Distribute.1.3.0\lib\MonoAndroid403\Microsoft.AppCenter.Distribute.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AppCenter.Push.Android.Bindings">
+      <HintPath>packages\Microsoft.AppCenter.Push.1.3.0\lib\MonoAndroid403\Microsoft.AppCenter.Push.Android.Bindings.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Push">
+      <HintPath>packages\Microsoft.AppCenter.Push.1.3.0\lib\MonoAndroid403\Microsoft.AppCenter.Push.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

@@ -45,6 +45,8 @@ namespace Qbradeira.Droid
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::Qbradeira.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::Qbradeira.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::Qbradeira.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
+			global::Microsoft.AppCenter.Push.Android.Resource.Drawable.ic_stat_notify_dot = global::Qbradeira.Droid.Resource.Drawable.ic_stat_notify_dot;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.library_name = global::Qbradeira.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Animation
@@ -1634,40 +1636,43 @@ namespace Qbradeira.Droid
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int notification_action_background = 2130837587;
+			public const int ic_stat_notify_dot = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int notification_bg = 2130837588;
+			public const int notification_action_background = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int notification_bg_low = 2130837589;
+			public const int notification_bg = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int notification_bg_low_normal = 2130837590;
+			public const int notification_bg_low = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_bg_low_pressed = 2130837591;
+			public const int notification_bg_low_normal = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int notification_bg_normal = 2130837592;
+			public const int notification_bg_low_pressed = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int notification_bg_normal_pressed = 2130837593;
+			public const int notification_bg_normal = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int notification_icon_background = 2130837594;
-			
-			// aapt resource value: 0x7f02005d
-			public const int notification_template_icon_bg = 2130837597;
-			
-			// aapt resource value: 0x7f02005e
-			public const int notification_template_icon_low_bg = 2130837598;
+			public const int notification_bg_normal_pressed = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int notification_tile_bg = 2130837595;
+			public const int notification_icon_background = 2130837595;
+			
+			// aapt resource value: 0x7f02005e
+			public const int notification_template_icon_bg = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int notification_template_icon_low_bg = 2130837599;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notify_panel_notification_icon_bg = 2130837596;
+			public const int notification_tile_bg = 2130837596;
+			
+			// aapt resource value: 0x7f02005d
+			public const int notify_panel_notification_icon_bg = 2130837597;
 			
 			static Drawable()
 			{
@@ -2319,68 +2324,71 @@ namespace Qbradeira.Droid
 			// aapt resource value: 0x7f060012
 			public const int abc_toolbar_collapse_description = 2131099666;
 			
-			// aapt resource value: 0x7f060035
-			public const int app_name = 2131099701;
-			
-			// aapt resource value: 0x7f060021
-			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131099681;
+			// aapt resource value: 0x7f060036
+			public const int app_name = 2131099702;
 			
 			// aapt resource value: 0x7f060022
-			public const int appcenter_distribute_download_progress_number_format = 2131099682;
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131099682;
 			
 			// aapt resource value: 0x7f060023
-			public const int appcenter_distribute_downloading_mandatory_update = 2131099683;
+			public const int appcenter_distribute_download_progress_number_format = 2131099683;
 			
 			// aapt resource value: 0x7f060024
-			public const int appcenter_distribute_install = 2131099684;
+			public const int appcenter_distribute_downloading_mandatory_update = 2131099684;
 			
 			// aapt resource value: 0x7f060025
-			public const int appcenter_distribute_install_ready_message = 2131099685;
+			public const int appcenter_distribute_install = 2131099685;
 			
 			// aapt resource value: 0x7f060026
-			public const int appcenter_distribute_install_ready_title = 2131099686;
+			public const int appcenter_distribute_install_ready_message = 2131099686;
 			
 			// aapt resource value: 0x7f060027
-			public const int appcenter_distribute_notification_category = 2131099687;
+			public const int appcenter_distribute_install_ready_title = 2131099687;
 			
 			// aapt resource value: 0x7f060028
-			public const int appcenter_distribute_unknown_sources_dialog_message = 2131099688;
+			public const int appcenter_distribute_notification_category = 2131099688;
 			
 			// aapt resource value: 0x7f060029
-			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131099689;
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2131099689;
 			
 			// aapt resource value: 0x7f06002a
-			public const int appcenter_distribute_update_dialog_download = 2131099690;
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131099690;
 			
 			// aapt resource value: 0x7f06002b
-			public const int appcenter_distribute_update_dialog_message_mandatory = 2131099691;
+			public const int appcenter_distribute_update_dialog_download = 2131099691;
 			
 			// aapt resource value: 0x7f06002c
-			public const int appcenter_distribute_update_dialog_message_optional = 2131099692;
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2131099692;
 			
 			// aapt resource value: 0x7f06002d
-			public const int appcenter_distribute_update_dialog_postpone = 2131099693;
+			public const int appcenter_distribute_update_dialog_message_optional = 2131099693;
 			
 			// aapt resource value: 0x7f06002e
-			public const int appcenter_distribute_update_dialog_title = 2131099694;
+			public const int appcenter_distribute_update_dialog_postpone = 2131099694;
 			
 			// aapt resource value: 0x7f06002f
-			public const int appcenter_distribute_update_dialog_view_release_notes = 2131099695;
+			public const int appcenter_distribute_update_dialog_title = 2131099695;
 			
 			// aapt resource value: 0x7f060030
-			public const int appcenter_distribute_update_failed_dialog_ignore = 2131099696;
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2131099696;
 			
 			// aapt resource value: 0x7f060031
-			public const int appcenter_distribute_update_failed_dialog_message = 2131099697;
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2131099697;
 			
 			// aapt resource value: 0x7f060032
-			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131099698;
+			public const int appcenter_distribute_update_failed_dialog_message = 2131099698;
 			
 			// aapt resource value: 0x7f060033
-			public const int appcenter_distribute_update_failed_dialog_title = 2131099699;
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131099699;
 			
 			// aapt resource value: 0x7f060034
-			public const int hello = 2131099700;
+			public const int appcenter_distribute_update_failed_dialog_title = 2131099700;
+			
+			// aapt resource value: 0x7f060035
+			public const int hello = 2131099701;
+			
+			// aapt resource value: 0x7f060021
+			public const int library_name = 2131099681;
 			
 			// aapt resource value: 0x7f060013
 			public const int search_menu_title = 2131099667;
