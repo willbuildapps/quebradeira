@@ -22,6 +22,16 @@ namespace Qbradeira.Droid
 			//Push
 			Push.SetSenderId("731318182468");
 
+			Push.PushNotificationReceived += (sender, e) =>
+			{
+				Toast.MakeText(this, e.Message,
+						   ToastLength.Long).Show();
+
+				Analytics.TrackEvent("Recebeu a notificação!");
+
+				System.Diagnostics.Debug.WriteLine(e.Message);
+			};
+
 			//App center
 			AppCenter.Start("67a93127-8cae-4fdc-a350-7333fc6dcdcd"
 							, typeof(Analytics)
