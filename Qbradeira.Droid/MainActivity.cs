@@ -18,10 +18,11 @@ namespace Qbradeira.Droid
 		{
 			base.OnCreate(savedInstanceState);
 
-			AppCenter.Start("67a93127-8cae-4fdc-a350-7333fc6dcdcd",
-							typeof(Analytics),
-							typeof(Crashes),
-							typeof(Distribute));
+			AppCenter.Start("67a93127-8cae-4fdc-a350-7333fc6dcdcd"
+							, typeof(Analytics)
+							, typeof(Crashes)
+						   //, typeof(Distribute)
+						   );
 
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Main);
